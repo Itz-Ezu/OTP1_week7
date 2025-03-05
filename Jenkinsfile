@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Itz-Ezu/OTP1_week7.git'
+                git branch:'master', url: 'https://github.com/Itz-Ezu/OTP1_week7.git'
             }
         }
         stage('Run Tests') {
