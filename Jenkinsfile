@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
-        DOCKERHUB_REPO = 'itzezu/otp1_tripcost'
+        DOCKERHUB_CREDENTIALS_ID = 'Docker_hub_id'
+        DOCKERHUB_REPO = 'itzezu/otp1_week7_tripcost'
         DOCKER_IMAGE_TAG = 'ver1'
     }
 
